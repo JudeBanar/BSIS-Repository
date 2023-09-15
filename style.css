@@ -165,7 +165,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5 rem;
+    gap: 5rem;
     height: 80vh;
 }
 
@@ -257,8 +257,4 @@ section {
 
 .btn-color-2:hover {
     border: rgb(255, 255, 255)
-}
-
-.btn-container {
-    
 }
