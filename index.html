@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Madz Amador Portfolio</title>
+    <title>Judylicious Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Judylicious</div>
+      <div class="logo">
+        <img src="./assets/My Logo 2.png" alt="Logo">
+      </div>
+      <div class="logo-title">Designs by JUDY</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -20,7 +23,9 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Madz Amador</div>
+      <div class="logo">
+        <img src="./assets/My Logo 2.png" alt="Logo">
+      </div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -41,26 +46,27 @@
         </div>
         <div class="section__text">
             <p class = "section_text_p1">Hello! I am</p>
-            <h1 class="title">Judy</h1>
+            <h1 class="title">JUDE</h1>
             <p class="section__text_p2">Grahic Designer</p>
-        </div>
-        <div class="btn-container">
-            <button class="btn btn-color-2"
-            onclick="window.open('./assets/cv_judy.pdf')"
-            >
-            Download CV
-            </button>
-            <button class="btn btn-color-1"
-            onclick="location.href='./#contact'"
-            >
-            Contact Info
-            </button>
-        </div>
-        <div id="socials-container">
-            <img src="./assets/linkedin.png" alt="My LinkedIn Profile" 
-            class="icon" onclick="location.href='https://google.com'">
-            <img src="./assets/github.png" alt="My Github Profile" 
-            class="icon" onclick="location.href='https://github.com'">
+        
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./assets/cv_judy.pdf')"
+                >
+                Download CV
+                </button>
+                <button class="btn btn-color-1"
+                onclick="location.href='./#contact'"
+                >
+                Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" 
+                class="icon" onclick="location.href='https://google.com'">
+                <img src="./assets/github.png" alt="My Github Profile" 
+                class="icon" onclick="location.href='https://github.com'">
+            </div>
         </div>
     </section>
     <script src="script.js"></script>
