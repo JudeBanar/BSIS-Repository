@@ -6,13 +6,15 @@
     <title>Judylicious Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav id="desktop-nav">
       <div class="logo">
         <img src="./assets/My Logo 2.png" alt="Logo">
+        <div class="logo-title">DESIGNS BY JUDY</div>
       </div>
-      <div class="logo-title">Designs by JUDY</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -41,24 +43,19 @@
       </div>
     </nav>
     <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/BAÑAR4.png" alt="Profile Picture">
-        </div>
         <div class="section__text">
             <p class = "section_text_p1">Hello! I am</p>
-            <h1 class="title">JUDE</h1>
+            <div class="name-container">
+              <h1 class="title-1">JUDE </h1>
+              <h1 class="title-2"> BAÑAR</h1>
+            </div>
             <p class="section__text_p2">Grahic Designer</p>
         
             <div class="btn-container">
-                <button class="btn btn-color-2"
+                <button class="btn btn-color-1"
                 onclick="window.open('./assets/cv_judy.pdf')"
                 >
                 Download CV
-                </button>
-                <button class="btn btn-color-1"
-                onclick="location.href='./#contact'"
-                >
-                Contact Info
                 </button>
             </div>
             <div id="socials-container">
@@ -66,8 +63,13 @@
                 class="icon" onclick="location.href='https://google.com'">
                 <img src="./assets/github.png" alt="My Github Profile" 
                 class="icon" onclick="location.href='https://github.com'">
+                <img src="./assets/email.png" alt="My E-mail" 
+                class="icon" onclick="location.href='https://gmail.com'">
             </div>
         </div>
+        <div class="section__pic-container">
+          <img src="./assets/profile-2.png" alt="Profile Picture">
+      </div>
     </section>
     <script src="script.js"></script>
   </body>
