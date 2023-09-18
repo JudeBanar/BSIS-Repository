@@ -10,7 +10,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: rgb(255, 255, 255);
+  background: black;
 }
 
 html {
@@ -18,7 +18,7 @@ html {
 }
 
 p {
-  color: black;
+  color: white;
 }
 
 /* Transition */
@@ -47,7 +47,10 @@ nav {
   font-size: 1rem;
   font-family: 'Poppins', Arial;
   font-weight: 600;
-  
+}
+
+#desktop-nav {
+  gap: 20rem;
 }
 
 a {
@@ -193,19 +196,25 @@ section {
   justify-content: center;
   gap: 10rem;
   height: 80vh;
+  margin-bottom: 20px;
 }
 
 .section__pic-container {
   display: flex;
   height: 550px;
+  width: 550px;
+}
+
+.profile-pic {
+  height: 500px;
   width: 500px;
-  margin: auto 0;
 }
 
 .section__text {
   align-self: normal;
   text-align: left;
   margin-top: 80px;
+  margin-left: 90px;
 }
 
 .section__text_p {
@@ -286,6 +295,8 @@ section {
 .btn-container {
   gap: 1rem;
 }
+
+/* about */
 
 #about {
   position: relative;
