@@ -10,6 +10,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: black;
 }
 
 html {
@@ -17,7 +18,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: white;
 }
 
 /* Transition */
@@ -37,15 +38,14 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
-  background-color: rgb(255, 0, 119);
+  height: 12vh;
 }
 
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
-  font-family: 'Century Gothic', Arial;
+  font-size: 1rem;
+  font-family: 'Poppins', Arial;
   font-weight: 600;
   
 }
@@ -57,11 +57,10 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: rgb(250, 56, 146);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: white;
-  
+  text-decoration-color: rgb(250, 56, 146);
 }
 
 .logo {
@@ -74,7 +73,17 @@ a:hover {
   cursor: default;
 }
 
-.logo-title {
+.logo-title-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: rgb(250, 56, 146);
+  padding-right: 8px;
+}
+
+.logo-title-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,7 +197,7 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 500px;
+  height: 550px;
   width: 500px;
   margin: auto 0;
 }
@@ -225,7 +234,11 @@ section {
 }
 
 .title-1 {
-  color: rgb(255, 0, 119);
+  color: rgb(250, 56, 146);
+}
+
+.title-2 {
+  color: white;
 }
 
 #socials-container {
@@ -248,7 +261,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin: 10px;
+  margin-top: 40px;
 }
 
 .btn {
