@@ -197,6 +197,7 @@ section {
   gap: 10rem;
   height: 80vh;
   margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 .section__pic-container {
@@ -428,3 +429,13 @@ article .icon {
   border: rgb(163, 163, 163);
 }
 
+.project-img-1  {
+  display: flex;
+  height: 1000px;
+  border-radius: 2rem;
+}
+
+.project-img-2 {
+  display: flex;
+  height: 600px;
+}
