@@ -197,7 +197,6 @@ section {
   gap: 10rem;
   height: 80vh;
   margin-bottom: 20px;
-  margin-top: 5px;
 }
 
 .section__pic-container {
@@ -234,7 +233,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: left;
-  color: white;
+  color:rgb(255, 0, 119);
   margin-bottom: 20px;
 }
 
@@ -246,7 +245,7 @@ section {
 }
 
 .title-1 {
-  color: rgb(250, 56, 146);
+  color: rgb(255, 0, 119);
 }
 
 .title-2 {
@@ -303,6 +302,7 @@ section {
 
 #about {
   position: relative;
+  margin-top: 5px;
 }
 
 .about-containers {
