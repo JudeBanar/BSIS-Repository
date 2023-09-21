@@ -194,7 +194,7 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 10rem;
+  gap: 6rem;
   height: 80vh;
   margin-bottom: 20px;
 }
