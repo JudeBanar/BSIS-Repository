@@ -233,6 +233,8 @@ section {
 .title {
   font-size: 3rem;
   text-align: left;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .name-container {
@@ -322,6 +324,11 @@ section {
   border-radius: 2rem;
 }
 
+.abt-sub-title {
+  color: rgb(41, 41, 41);
+  margin-top: 10px;
+}
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -330,6 +337,7 @@ section {
   border: rgb(163, 163, 163) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  margin-top: 10px;
 }
 
 .section-container {
@@ -356,7 +364,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(41, 41, 41);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -386,6 +394,11 @@ article {
 
 article .icon {
   cursor: default;
+}
+
+.exp-status {
+  color: rgb(41, 41, 41);
+  margin-top: 5px;
 }
 
 /*projects section */
