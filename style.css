@@ -83,16 +83,18 @@ a:hover {
   font-size: 30px;
   font-family: 'Bebas Neue', sans-serif;
   color: rgb(250, 56, 146);
-  padding-right: 8px;
+  padding-right: 4px;
+  padding-top: 4px;
 }
 
 .logo-title-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Bebas Neue', sans-serif;
   color: white;
+  padding-top: 4px;
 }
 
 /* Hamburger Menu */
