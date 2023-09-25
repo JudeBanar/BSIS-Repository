@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
+  /*border: 1px solid red; */
 }
 
 body {
@@ -181,8 +181,8 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  height: 100vh;
+  margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -198,13 +198,13 @@ section {
   justify-content: center;
   gap: 6rem;
   height: 80vh;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .section__pic-container {
   display: flex;
-  height: 550px;
-  width: 550px;
+  height: 500px;
+  width: 500px;
 }
 
 .profile-pic {
@@ -304,7 +304,9 @@ section {
 
 #about {
   position: relative;
-  margin-top: 5px;
+  background: white;
+  margin: 0 0 0 0;
+  padding: 2rem 5rem 0 5rem;
 }
 
 .about-containers {
@@ -355,9 +357,10 @@ section {
 }
 
 .arrow {
-  position: absolute;
+  position: flex;
   right: -5rem;
   bottom: 2.5rem;
+  margin-left: 650px;
 }
 
 /*experience */
