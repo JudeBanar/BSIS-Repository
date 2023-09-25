@@ -441,3 +441,44 @@ article .icon {
   display: flex;
   height: 600px;
 }
+
+/*contact*/
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(163, 163, 163);
+  border-color: rgb(163, 163, 163);
+  background: white;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.contact-info-container {
+  font-size: larger;
+}
+
+.email-icon {
+  height: 2.5rem;
+  
+}
