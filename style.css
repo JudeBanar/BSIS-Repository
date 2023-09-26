@@ -10,7 +10,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: black;
+  background: url(./assets/profile-bg-blur-1.png);
+  background-size: contain;
 }
 
 html {
@@ -199,6 +200,7 @@ section {
   gap: 6rem;
   height: 80vh;
   margin-bottom: 50px;
+  text-shadow: 0px 0px 10px black;
 }
 
 .section__pic-container {
@@ -217,6 +219,7 @@ section {
   text-align: left;
   margin-top: 80px;
   margin-left: 90px;
+  margin-right: 40rem;
 }
 
 .section__text_p {
@@ -248,16 +251,23 @@ section {
 
 .title-1 {
   color: rgb(255, 0, 119);
+  text-shadow: 0px 0px 30px black;
+  font-size: 8rem;
+  height: 8.5rem;
 }
 
 .title-2 {
   color: white;
+  text-shadow: 0px 0px 30px black;
+  font-size: 8rem;
+  height: 8.5rem;
 }
 
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
   gap: 1rem;
 }
 
@@ -272,9 +282,10 @@ section {
 
 .btn-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 1rem;
   margin-top: 40px;
+
 }
 
 .btn {
@@ -283,17 +294,18 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  background-color: white;
 }
 
 .btn-color-1 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: none;
 }
 
 .btn-color-1:hover {
   cursor: pointer;
   background: rgb(255, 0, 119);
   color: white;
-  border: rgb(255, 0, 119) 0.1rem solid;
+  border: none;
 }
 
 .btn-container {
