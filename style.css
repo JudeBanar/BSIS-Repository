@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  /*border: 1px solid red;*/
+  /*border: 1px solid red;*/ 
 }
 
 body {
@@ -242,7 +242,7 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   text-decoration: underline;
   text-underline-offset: 1rem;
@@ -332,20 +332,10 @@ section {
   padding: 2rem 5rem 0 5rem;
 }
 
-.about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
-  display: flex;
+  margin-top: 2rem;
 }
 
 .about-pic {
@@ -385,7 +375,7 @@ section {
   color: rgb(255, 0, 119);
 }
 
-.about-title-contents {
+.about-contents {
   color: black;
   font-family: 'Poppins,' Arial;
   font-weight: 600;
@@ -403,6 +393,12 @@ section {
   position: relative;
 }
 
+.info-container {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
 .arrow {
   position: flex;
   right: -5rem;
@@ -414,6 +410,20 @@ section {
 
 #experience {
   position: relative;
+  background-color: black;
+  margin: 0;
+  padding: 2rem 5rem 0 5rem;
+}
+
+.title-exp {
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(255, 0, 119);
+  color:rgb(255, 255, 255);
+  margin-bottom: 20px;
+  font-family: 'Poppins', Arial;
 }
 
 .experience-sub-title {
