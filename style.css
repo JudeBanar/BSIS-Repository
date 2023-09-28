@@ -456,7 +456,7 @@ section {
 
 .proj-btn:hover {
   background: rgb(250, 56, 146);
-  transition: all 100ms ease-in-out;s
+  transition: all 100ms ease-in-out;
   box-shadow: 0px 0px 20px white;
 }
 
