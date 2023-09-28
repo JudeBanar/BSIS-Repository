@@ -340,7 +340,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .about-pic {
@@ -384,7 +384,7 @@ section {
   color: black;
   font-family: 'Poppins,' Arial;
   font-weight: 600;
-}
+} 
 
 .section-container {
   gap: 4rem;
@@ -400,8 +400,16 @@ section {
 
 .info-container {
   display: flex;
-  margin-top: 1rem;
+  margin-top: .5rem;
   gap: 1rem;
+}
+.info-text {
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
+
+.about-exp-details {
+  margin-left: 2rem;
 }
 
 .arrow {
@@ -446,11 +454,7 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
 }
 
 article {
