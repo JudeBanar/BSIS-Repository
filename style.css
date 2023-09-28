@@ -98,6 +98,11 @@ a:hover {
   padding-top: 4px;
 }
 
+.icon-container {
+  display: flex;
+  gap: 1rem;
+}
+
 /* Hamburger Menu */
 
 #hamburger-nav {
