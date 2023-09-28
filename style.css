@@ -439,6 +439,28 @@ section {
   font-family: 'Poppins', Arial;
 }
 
+.project-btn {
+  display: flex;
+  height:25rem;
+  gap: 2rem;
+}
+
+.proj-btn{
+  background-image: url(./assets/IS-Activity5-MoviePoster\ \(Bañar\,\ JM\).png);
+  background-size: cover;
+  background-position:0cqmax;
+  width: 550px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.proj-btn:hover {
+  background: rgb(250, 56, 146);
+  transition: all 100ms ease-in-out;s
+  box-shadow: 0px 0px 20px white;
+}
+
+
 /*contact*/
 
 #contact {
