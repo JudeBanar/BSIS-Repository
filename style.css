@@ -401,6 +401,7 @@ section {
   display: flex;
   margin-top: .5rem;
   gap: 1rem;
+  width: 8rem;
 }
 
 .info-text {
@@ -410,6 +411,8 @@ section {
 
 .about-exp-details {
   margin-left: 2rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .arrow {
@@ -426,6 +429,7 @@ section {
   background-color: black;
   margin: 0;
   padding: 2rem 5rem 0 5rem;
+  height: 160vh;
 }
 
 .title-project {
@@ -439,25 +443,63 @@ section {
   font-family: 'Poppins', Arial;
 }
 
-.project-btn {
+.project-section-container {
   display: flex;
-  height:25rem;
+  margin-top: 3rem;
   gap: 2rem;
 }
 
-.proj-btn{
-  background-image: url(./assets/IS-Activity5-MoviePoster\ \(Bañar\,\ JM\).png);
-  background-size: cover;
-  background-position:0cqmax;
-  width: 550px;
-  height: 300px;
-  border-radius: 150px;
+.project-container {
+  width: 100%;
+  height: 1%;
+  display: absolute;
+  position:relative;
+  cursor: pointer;
 }
 
-.proj-btn:hover {
-  background: rgb(250, 56, 146);
-  transition: all 100ms ease-in-out;
-  box-shadow: 0px 0px 20px white;
+.project-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  background-color: rgba(250, 56, 146, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  opacity: 0;
+}
+
+.overlay-content {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 0px 0px 2rem black;
+}
+
+.project-name {
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+  margin-top: 0;
+}
+
+.project-detail {
+  font-family: 'Poppins';
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.project-container:hover .project-overlay{
+  opacity: 1;
+  box-shadow: 0px 0px 2rem white;
+  transition: all .2s ease-in-out;
 }
 
 
@@ -468,15 +510,17 @@ section {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 5rem 0 5rem;
+  background-color: white;
 }
 
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(163, 163, 163);
-  border-color: rgb(163, 163, 163);
-  background: white;
+  background: black;
   margin: 2rem;
   padding: 0.5rem;
 }
@@ -499,5 +543,23 @@ section {
 
 .email-icon {
   height: 2.5rem;
-  
+}
+
+/* Footer Section */
+
+footer {
+  height: 26vh;
+  margin: 0;
+  background: rgb(250, 56, 146);
+}
+
+footer p {
+  text-align: center;
+  font-weight: 100;
+}
+
+footer p:hover,
+footer a:hover {
+  color: black;
+  text-decoration-color: black;
 }
