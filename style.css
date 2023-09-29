@@ -569,3 +569,50 @@ footer a:hover {
   color: black;
   text-decoration-color: black;
 }
+
+
+/*Project HTML*/
+
+#project-nav {
+  display: flex;
+  background: rgb(250, 56, 146);
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+  color: white;
+  gap: 0;
+  justify-content: left;
+}
+
+.back-button {
+  display: flex;
+  margin-left: 5rem;
+  gap: 1rem;
+}
+
+#project-content {
+  display: flex;
+  background: black;
+  width: 100%;
+  padding: 2rem 5rem 0 5rem;
+  margin:0;
+}
+
+.project-info-container {
+  display: flex ;
+  gap: 2rem;
+}
+
+.project-img,
+.proj-img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.project-text {
+  color: white;
+}
+
+.project-title-text {
+  font-family: 'Bebas Neue';
+  font-size: 70px;
+}
