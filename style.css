@@ -503,6 +503,11 @@ section {
   transition: all .2s ease-in-out;
 }
 
+.project-overlay a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 
 /*contact*/
 
