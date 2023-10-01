@@ -7,4 +7,153 @@
       display: flex;
     }
   }
+
+@media screen and (max-width: 450px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    background: black;
+  }
+
+  #profile {
+    display: flex;
+  }
+
+  .section__text {
+    margin: 0;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_text_p1,
+  .section__text_p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .name-container {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .btn-container {
+    justify-content: center;
+  }
+
+  .btn-color-1 {
+    background: rgb(250, 56, 146);
+    color: white;
+  }
+
+  .title-1,
+  .title-2 {
+    justify-content: center;
+    display: flex;
+  }
+
+  #about {
+    height: 200vh;
+  }
+
+  .section-container {
+    display: inline;
+  }
+
+  .about-details-container {
+    display: inline;
+  }
+
+  .section__pic-container {
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+
+  .about-pic {
+    width: 255px;
+    height: 255px;
+  }
+
+  .about-title-1,
+  .about-title-2 {
+    font-size: 50px;
+  }
+
+  .about-exp-details {
+    display: inline;
+  }
+
+  #projects {
+    height: 200vh;
+  }
+
+  .project-section-container {
+    display: inline-block;
+  }
+
+  .project-overlay {
+    display: flex;
+    opacity: 100%;
+  }
+
+  .project-name {
+    font-size: 50px;
+  }
+
+  .project-detail {
+    font-size: 15px;
+  }
+
+  .contact-info-upper-container {
+    display: inline-block;
+    font-size: 10px;
+    width: 200px;
+    margin-left: 1rem;
+  }
+
+  .nav-links {
+    display: inline;
+  }
+
+  li {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    margin-top: 3rem;
+    font-size: 15px;
+  }
+
+  .back {
+    display: none;
+  }
+
+  .project-info-container {
+    display: inline;
+  }
+
+  .project-img,
+  .proj-img {
+    width: 250px;
+  }
+
+  .project-text {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-ss-container {
+    display: inline;
+  }
+
+  .ss-container {
+    margin-top: 2rem;
+  }
+
+}
   
