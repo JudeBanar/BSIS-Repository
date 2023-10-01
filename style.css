@@ -590,11 +590,11 @@ footer a:hover {
 }
 
 #project-content {
-  display: flex;
   background: black;
   width: 100%;
   padding: 2rem 5rem 0 5rem;
   margin:0;
+  height: 280vh;
 }
 
 .project-info-container {
@@ -615,4 +615,58 @@ footer a:hover {
 .project-title-text {
   font-family: 'Bebas Neue';
   font-size: 70px;
+}
+
+.project-btn {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.github-btn {
+  padding: 1rem;
+  width: 7rem;
+  height: 4rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  font-family: 'Poppins';
+  font-weight: 1000;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.github-btn:hover {
+  cursor: pointer;
+  background: rgb(250, 56, 146);
+  color: white;
+  transition: all 300ms ease;
+}
+
+.project-ss-container {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.proj-ss {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.ss-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.ss-text {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 1000;
 }
